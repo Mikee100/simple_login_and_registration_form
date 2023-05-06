@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250vh;   
+}
+
+.myform{
+    margin:50px;
+    margin-top: -700px;
+           background-color: white;
+            padding: 180px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #aaa;
+            padding: 25px 120px 75px 40px;
+            background:transparent;
+           
+           
+}
+.passwordfield, .emailfield{
+            
+            width: 100%;
+            padding: 30px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+         
+           
+            display: block;
+            border-bottom: 1px solid #4CAF50;
+          
+}
+.submit{
+    width:120%;
+   
+    padding: 16px;
+    border-radius: 10px;
+    color:grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+.signup{
+   margin-left: 5px;
+}
+.company{
+    height:160px;
+    background-color: #aaa;
+    width: 100%;
+    
+}
+.company_name{
+    font-size: 60px;
+}
+.myregister{
+    margin:20px;
+    padding-right: 130px;
+    margin-top: -600px;
+
+           background-color: white;
+            padding: 180px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #aaa;
+            padding: 25px 120px 75px 40px;
+            background:transparent;
+
+}
+.fname,.sname, .email, .password_1, .password_2{
+            width: 100%;
+            padding: 30px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+          
+            display: block;
+            border-bottom: 1px solid #4CAF50;
+          
+          
+
+}
+.register{
+    width:120%;
+   
+    padding: 16px;
+    border-radius: 10px;
+    color:grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
